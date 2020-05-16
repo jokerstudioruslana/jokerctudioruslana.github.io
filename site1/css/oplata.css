@@ -1,0 +1,162 @@
+body{
+    background: url(https://a.allegroimg.com/s650/010a72/a93248ab416a8819210ba7cf040a);
+}
+header{
+    min-height: 30%;
+    weight: 100%;
+    background: url(../images/divback.jpg) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    background-attachment: fixed; 
+    background-position: center;  
+  
+    
+}
+.logo{
+    float:right;
+    padding: 50px;
+    background-origin: content-box;
+}
+ul.nav{
+    list-style-type: none;
+    margin-left: 400px;
+    padding-left: 0px;
+    padding-bottom: 30px;
+}
+ul.nav li{
+    display: inline;
+
+}ul.nav a{
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(252, 252, 19, 0.836);
+    margin: 0 10px;
+    padding: 4px;
+    font-size: 1.3em;
+    color: #ffffff;
+    border-radius:5px ;                         
+}
+ul.nav a:hover{
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(252, 252, 19, 0.363);
+    margin: 0 10px;
+    padding: 4px;
+    font-size: 1.3em;
+    color: #ffffff;
+    border-radius:5px ;    
+}
+.no-active
+{
+    background-color: rgba(169, 169, 169, 0.452);    
+    margin: 0 10px;
+    padding: 4px;
+    font-size: 1.3em;
+    color: #ffffff;
+    border-radius:5px ;
+}
+
+article{
+    font-family: Cormorant Garamond;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    }
+    
+h1{
+    font-size: 2em;
+    font-family: Helvetica, sans-serif;
+    color: #451923;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+hr{
+    margin-left:  200px;
+    margin-right:  200px;
+    margin-top: 20px;
+    border: 1px solid #29292f;
+    
+}
+h2{
+    color: #590615;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.txt{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.msg{
+    background: url(http://tattookiev.org.ua/wp-content/uploads/2018/06/Money6.jpg) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    background-attachment: local; 
+    background-position: center;  
+    font-size: 1.8em;
+    color:#fff;
+    padding: 20px 50px;
+    margin-top: 40px;
+}
+.forma{
+    border: solid 2.5px rgb(204, 162, 20);
+    padding: 5px;
+    margin: 10px;
+    color: #000;
+    font-size: 1.5em;
+}
+ a{
+    text-decoration: none;
+}
+.port1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    align-items: flex-end;
+}
+footer{
+    background-color: #000;
+    padding: 20px
+}
+.footer{,
+    display: flex;
+    justify-content: space-between;
+}
+.f-1{
+    color: #fff;
+    width: 20%;
+   
+}
+.f-2{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.par{
+    margin: -5px;
+}
+ input{
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+    background:#d49e9e;
+    color: #000;
+    font-size: 18px;
+}
+.f-3{
+  width: 35%;  
+}
+.ques{
+    margin-top: -7px;
+    color:#fff;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1px !important;
+}
+.par a{
+    text-decoration: none;
+    color: #fff;
+}

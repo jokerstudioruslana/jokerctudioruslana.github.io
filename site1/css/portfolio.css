@@ -1,0 +1,123 @@
+body{
+    background: url(https://a.allegroimg.com/s650/010a72/a93248ab416a8819210ba7cf040a);
+}
+header{
+    min-height: 40%;
+    background: url(../images/divback.jpg) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    background-attachment: fixed; 
+    background-position: center;  
+    
+}
+.logo{
+    float:right;
+    padding: 50px;
+    background-origin: content-box;
+}
+ul.nav{
+    list-style-type: none;
+    margin-left: 400px;
+    padding-left: 0px;
+    padding-bottom: 30px;
+}
+ul.nav li{
+    display: inline;
+}ul.nav a{
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(252, 252, 19, 0.836);
+    margin: 0 10px;
+    padding: 4px;
+    font-size: 1.3em;
+    color: #ffffff;
+    border-radius:5px ;                         
+}
+ul.nav a:hover{
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(252, 252, 19, 0.363);
+    margin: 0 10px;
+    padding: 4px;
+    font-size: 1.3em;
+    color: #ffffff;
+    border-radius:5px ;    
+}
+.no-active
+{
+    background-color: rgba(169, 169, 169, 0.452);  
+    margin: 0 10px;
+    padding: 4px;
+    font-size: 1.3em;
+    color: #ffffff;
+    border-radius:5px ;  
+}
+article{
+    font-family: Cormorant Garamond;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.port{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.port1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+footer{
+    background-color: #000;
+    padding: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.f-1{
+    color: #fff;
+    width: 20%;
+   
+}
+.f-2{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.par{
+    margin: -5px;
+}
+ input{
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+    background:#d49e9e;
+    color: #000;
+    font-size: 18px;
+}
+.f-3{
+  width: 35%;  
+}
+.ques{
+    margin-top: -7px;
+    color:#fff;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1px !important;
+}
+.par a{
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,32 @@
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    background: url(https://png.clipart.me/istock/previews/2293/22939695-seamless-pattern-with-airplane-routes.jpg);
+}
+h1{
+    font-size: 2em;
+    margin: 0 auto;
+    margin-left: 300px;
+}
+form{
+    font-size: 20px;
+    border: 1.7px solid #000;
+    border-radius: 10px;
+    background-color: rgba(228, 214, 15, 0.205);
+    height: 400px;
+    width: 600px;
+    margin-left:170px;
+}
+input{
+    margin: 10px;
+    padding: 5px;
+}
+.sum{
+    background-color: rgba(236, 208, 47, 0.842);
+    border:  rgba(236, 208, 47, 0.842);
+}
+ input.sum:hover{
+    font-size: 19px;
+    background-color: rgb(236, 208, 47);
+    border: solid 1.5px rgb(97, 240, 250);
+}
